@@ -226,7 +226,7 @@ color: #4B5D68;
 border-radius: 2rem;
 border-top-left-radius: 12rem;
   }
-.violet{
+.violet {
    
  background: rgb(156, 105, 226, 0.1);
 
@@ -287,4 +287,119 @@ text-align: center;
 }
 .features__block-description span {
   margin-top: 2rem;
+}
+/*testimonials*/
+
+.testimonials {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+/*footer*/
+footer {
+  padding-top: 12.1rem;
+  border-top: 1px solid  rgb(156, 105, 226, 0.2);
+  margin-top: 15rem;
+}
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+.footer__columns {
+  margin-top: 12.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer li {
+  list-style: none;
+}
+
+.footer__heading {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+   align-items: center;
+    color: #212353;
+}
+footer p {
+  margin-top: 2rem;
+  font-family: 'Avenir';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #4B5D68;
+
+}
+.footer__try {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__button {
+  border-radius: 5rem;
+  background:  #F063B8;
+  width: 17rem;
+  height: 6rem;
+  color: white;
+  text-align: center;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%
+}
+
+footer h4 {
+  
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 160%;
+color: #212353;
+margin-bottom: 6.7rem;
+}
+.footer__column p {
+  width: 33.5rem;
+  margin-top: 6.7rem;
+}
+.footer__column a {
+  margin-top: 6.7rem;
+  font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 250%;
+color: #212353;
+}
+.footer img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.footer__flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+ gap: 30px;
+}
+.footer__underground {
+  margin-top: 9.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__underground-left p {
+  
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 180%;
+align-items: center;
+letter-spacing: 0.01em;
+color: #212353;
+width: 36rem;
+
 }
