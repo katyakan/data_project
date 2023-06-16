@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="./swiper-bundle.css">
 </head>
 
 <body>
@@ -133,69 +134,87 @@
     <section class="testimonials">
       <div class="container testimonials__container">
         <h2 class="testimonials__heading">Testimonials</h2>
-        <div class="testimoninals__cards">
-          <div class="testiomonials__card">
-            <img src="./assets/img/image07.png" alt="cards">
+        <div class="testimonials__cards swiper">
+          <div class="swiper-wrapper ">
+            <swiper-container>
+              <swiper-slide>
+                <div class="testiomonials__card">
+                  <img src="./assets/img/image07.png" alt="cards">
+              </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="testiomonials__card">
+                  <img src="./assets/img/image07.png" alt="cards">
+                </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="testiomonials__card">
+                  <img src="./assets/img/image07.png" alt="cards">
+                </div>
+              </swiper-slide>
+              </swiper-container>
           </div>
-        </div>
+            <div class="swiper-pagination reviews-pagination"></div>
+            </div>
       </div>
     </section>
-    <footer class="footer container">
-      <div class="footer__try">
-        <div class="footer__try-left">
-          <h3 class="footer__heading">Try for free!</h3>
-          <p>Get limited 1 week free try our features!</p>
-        </div>
-        <div class="footer__try-right">
-          <button class="footer__button">Learn More</button>
-          <button class="header__button">Request Demo →</button>
-        </div>
-      </div>
-      <div class="footer__columns">
-        <div class="footer__column">
-          <h4>DataWareHouse</h4>
-          <p>Warehouse Society, 234
+</main>
 
-            Bahagia Ave Street
-            PRBW 29281
+  <footer class="footer container">
+    <div class="footer__try">
+      <div class="footer__try-left">
+        <h3 class="footer__heading">Try for free!</h3>
+        <p>Get limited 1 week free try our features!</p>
+      </div>
+      <div class="footer__try-right">
+        <button class="footer__button">Learn More</button>
+        <button class="header__button">Request Demo →</button>
+      </div>
+    </div>
+    <div class="footer__columns">
+      <div class="footer__column">
+        <h4>DataWareHouse</h4>
+        <p>Warehouse Society, 234
+
+          Bahagia Ave Street
+          PRBW 29281
           </p>
           <p>info@warehouse.project
             1-232-3434 (Main)</p>
-        </div>
-        <div class="footer__column">
-          <h4>About</h4>
-         <li><a href="#">Profile </a></li>
-         <li><a href="#"> Features</a></li>
-         <li><a href="#">Careers</a></li>
-         <li><a href="#">DW News</a></li>
-        </div>
-        <div class="footer__column">
-          <h4>Help</h4>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Sign Up</a></li>
-          <li><a href="#">Guide</a></li>
-          <li><a href="#">Reports</a></li>
-          <li><a href="#">Q&A</a></li>
-        </div>
-        <div class="footer__column ">
-          <h4>Social Media</h4>
-          <div class="footer__flex">
-            <a href="#"><img src="./assets/logo/facebook.svg" alt="facebook"></a>
-            <a href="#"><img src="./assets/logo/twitter.svg" alt="twitter"></a>
-            <a href="#"><img src="./assets/logo/twitter.svg" alt="twitter"></a>
           </div>
-        </div>
-        </div>
-        <div class="footer__underground">
-          <div class="footer__underground-left">
-            <p>© Datawarehouse™, 2020. All rights reserved.
-              Company Registration Number: 21479524.</p>
+          <div class="footer__column">
+            <h4>About</h4>
+            <li><a href="#">Profile </a></li>
+            <li><a href="#"> Features</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">DW News</a></li>
           </div>
-          <div class="footer__underground-right"><img src="./assets/logo/message02.svg" alt="message"></div>
-      </div>
-    </footer>
-  </main>
-  <footer></footer>
+          <div class="footer__column">
+            <h4>Help</h4>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Guide</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Q&A</a></li>
+          </div>
+          <div class="footer__column ">
+            <h4>Social Media</h4>
+            <div class="footer__flex">
+              <a href="#"><img src="./assets/logo/facebook.svg" alt="facebook"></a>
+              <a href="#"><img src="./assets/logo/twitter.svg" alt="twitter"></a>
+              <a href="#"><img src="./assets/logo/twitter.svg" alt="twitter"></a>
+            </div>
+          </div>
+          </div>
+          <div class="footer__underground">
+            <div class="footer__underground-left">
+              <p>© Datawarehouse™, 2020. All rights reserved.
+                Company Registration Number: 21479524.</p>
+            </div>
+            <div class="footer__underground-right"><img src="./assets/logo/message02.svg" alt="message"></div>
+          </div>
+          </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 </body>
 
 </html>
